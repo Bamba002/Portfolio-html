@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+        nav img {
+            border-radius: 50%;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white; 
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        form ul {
+            padding: 0;
+        }
+        form ul li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        form ul li label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form ul li input, form ul li textarea {
+            width: 100%;
+            padding: 5px;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+
+        
+    </style>
+    <header>
+    <nav>
+        <img src="https://marketplace.canva.com/EAFaFUz4aKo/2/0/1600w/canva-yellow-abstract-cooking-fire-free-logo-JmYWTjUsE-Q.jpg" width="170px" height="170px" alt="Logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta vero. Non debitis impedit eaque nulla itaque? Consequatur corporis deleniti mollitia? Totam laboriosam ratione earum. Voluptas odio, saepe modi quibusdam consequuntur nobis? Impedit, eligendi nostrum ea consequuntur sint ab eum nisi laboriosam. Saepe odit iste vel cumque laborum, totam excepturi?</p>
+        </section>
+        <br>
+        <section>
+            <h2>Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta vero. Non debitis impedit eaque nulla itaque? Consequatur corporis deleniti mollitia? Totam laboriosam ratione earum. Voluptas odio, saepe modi quibusdam consequuntur nobis? Impedit, eligendi nostrum ea consequuntur sint ab eum nisi laboriosam. Saepe odit iste vel cumque laborum, totam excepturi?</p>
+        </section>
+        <br>
+        <section>
+            <h2>Resume</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta vero. Non debitis impedit eaque nulla itaque? Consequatur corporis deleniti mollitia? Totam laboriosam ratione earum. Voluptas odio, saepe modi quibusdam consequuntur nobis? Impedit, eligendi nostrum ea consequuntur sint ab eum nisi laboriosam. Saepe odit iste vel cumque laborum, totam excepturi?</p>
+        </section>
+        <br>
+        <section>
+            <h2>Contact</h2>
+            <form action="/ma-page-de-traitement" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Nom&nbsp;:</label>
+                    <input type="text" id="name" name="user_name" />
+                  </li>
+                  <li>
+                    <label for="mail">E-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                  </li>
+                  <li>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="user_date">
+                  </li>
+                  <li>
+                    <label for="msg">Message&nbsp;:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                </ul>
+                <button type="submit">Envoyer</button>
+              </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
